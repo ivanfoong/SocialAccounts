@@ -75,6 +75,8 @@
 		53D36F85175A545B00F5BA5A /* SOVineUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D36F60175A545B00F5BA5A /* SOVineUser.m */; };
 		53D36F86175A545B00F5BA5A /* SOVotoAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D36F63175A545B00F5BA5A /* SOVotoAPIClient.m */; };
 		53D36F87175A545B00F5BA5A /* SOVotoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D36F65175A545B00F5BA5A /* SOVotoUser.m */; };
+		8D219184185ABD97004CAF9F /* SOAppNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D219181185ABD97004CAF9F /* SOAppNetAPIClient.m */; };
+		8D219185185ABD97004CAF9F /* SOAppNetUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D219183185ABD97004CAF9F /* SOAppNetUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -205,6 +207,10 @@
 		53D36F63175A545B00F5BA5A /* SOVotoAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOVotoAPIClient.m; sourceTree = "<group>"; };
 		53D36F64175A545B00F5BA5A /* SOVotoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOVotoUser.h; sourceTree = "<group>"; };
 		53D36F65175A545B00F5BA5A /* SOVotoUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOVotoUser.m; sourceTree = "<group>"; };
+		8D219180185ABD97004CAF9F /* SOAppNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOAppNetAPIClient.h; sourceTree = "<group>"; };
+		8D219181185ABD97004CAF9F /* SOAppNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOAppNetAPIClient.m; sourceTree = "<group>"; };
+		8D219182185ABD97004CAF9F /* SOAppNetUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOAppNetUser.h; sourceTree = "<group>"; };
+		8D219183185ABD97004CAF9F /* SOAppNetUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOAppNetUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +375,7 @@
 		53D36F14175A545A00F5BA5A /* SocialAccounts */ = {
 			isa = PBXGroup;
 			children = (
+				8D21917F185ABD97004CAF9F /* AppNet */,
 				53D36F15175A545A00F5BA5A /* Dribbble */,
 				53D36F1A175A545A00F5BA5A /* Facebook */,
 				53D36F1F175A545A00F5BA5A /* FiveHundredspx */,
@@ -539,6 +546,17 @@
 			path = Voto;
 			sourceTree = "<group>";
 		};
+		8D21917F185ABD97004CAF9F /* AppNet */ = {
+			isa = PBXGroup;
+			children = (
+				8D219180185ABD97004CAF9F /* SOAppNetAPIClient.h */,
+				8D219181185ABD97004CAF9F /* SOAppNetAPIClient.m */,
+				8D219182185ABD97004CAF9F /* SOAppNetUser.h */,
+				8D219183185ABD97004CAF9F /* SOAppNetUser.m */,
+			);
+			path = AppNet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -618,6 +636,7 @@
 				538E653F16BF33C9005B6350 /* GTMOAuth2SignIn.m in Sources */,
 				538E654016BF33C9005B6350 /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				538E656716BF346B005B6350 /* GTMHTTPFetcher.m in Sources */,
+				8D219185185ABD97004CAF9F /* SOAppNetUser.m in Sources */,
 				538E656816BF346B005B6350 /* GTMHTTPFetcherService.m in Sources */,
 				538E656916BF346B005B6350 /* GTMHTTPFetchHistory.m in Sources */,
 				530E0CAF16CB3D9A0048AAEE /* AFHTTPClient.m in Sources */,
@@ -662,6 +681,7 @@
 				53D36F85175A545B00F5BA5A /* SOVineUser.m in Sources */,
 				53D36F86175A545B00F5BA5A /* SOVotoAPIClient.m in Sources */,
 				53D36F87175A545B00F5BA5A /* SOVotoUser.m in Sources */,
+				8D219184185ABD97004CAF9F /* SOAppNetAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
