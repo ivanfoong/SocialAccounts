@@ -77,6 +77,8 @@
 		53D36F87175A545B00F5BA5A /* SOVotoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D36F65175A545B00F5BA5A /* SOVotoUser.m */; };
 		8D219184185ABD97004CAF9F /* SOAppNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D219181185ABD97004CAF9F /* SOAppNetAPIClient.m */; };
 		8D219185185ABD97004CAF9F /* SOAppNetUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D219183185ABD97004CAF9F /* SOAppNetUser.m */; };
+		8D21918B185ABDDC004CAF9F /* SOLinkedInAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D219188185ABDDC004CAF9F /* SOLinkedInAPIClient.m */; };
+		8D21918C185ABDDC004CAF9F /* SOLinkedInUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21918A185ABDDC004CAF9F /* SOLinkedInUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -211,6 +213,10 @@
 		8D219181185ABD97004CAF9F /* SOAppNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOAppNetAPIClient.m; sourceTree = "<group>"; };
 		8D219182185ABD97004CAF9F /* SOAppNetUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOAppNetUser.h; sourceTree = "<group>"; };
 		8D219183185ABD97004CAF9F /* SOAppNetUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOAppNetUser.m; sourceTree = "<group>"; };
+		8D219187185ABDDC004CAF9F /* SOLinkedInAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLinkedInAPIClient.h; sourceTree = "<group>"; };
+		8D219188185ABDDC004CAF9F /* SOLinkedInAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLinkedInAPIClient.m; sourceTree = "<group>"; };
+		8D219189185ABDDC004CAF9F /* SOLinkedInUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLinkedInUser.h; sourceTree = "<group>"; };
+		8D21918A185ABDDC004CAF9F /* SOLinkedInUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLinkedInUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +389,7 @@
 				53D36F29175A545A00F5BA5A /* Github */,
 				53D36F2E175A545A00F5BA5A /* Google */,
 				53D36F33175A545A00F5BA5A /* Instagram */,
+				8D219186185ABDDC004CAF9F /* LinkedIn */,
 				53D36F38175A545A00F5BA5A /* Pinterest */,
 				53D36F3D175A545A00F5BA5A /* SOAccount.h */,
 				53D36F3E175A545A00F5BA5A /* SOAccount.m */,
@@ -557,6 +564,17 @@
 			path = AppNet;
 			sourceTree = "<group>";
 		};
+		8D219186185ABDDC004CAF9F /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				8D219187185ABDDC004CAF9F /* SOLinkedInAPIClient.h */,
+				8D219188185ABDDC004CAF9F /* SOLinkedInAPIClient.m */,
+				8D219189185ABDDC004CAF9F /* SOLinkedInUser.h */,
+				8D21918A185ABDDC004CAF9F /* SOLinkedInUser.m */,
+			);
+			path = LinkedIn;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -631,6 +649,7 @@
 				5340E82716BED59300C53EF5 /* ViewController.m in Sources */,
 				538E653A16BF33C9005B6350 /* GTMOAuthAuthentication.m in Sources */,
 				538E653B16BF33C9005B6350 /* GTMOAuthSignIn.m in Sources */,
+				8D21918B185ABDDC004CAF9F /* SOLinkedInAPIClient.m in Sources */,
 				538E653C16BF33C9005B6350 /* GTMOAuthViewControllerTouch.m in Sources */,
 				538E653E16BF33C9005B6350 /* GTMOAuth2Authentication.m in Sources */,
 				538E653F16BF33C9005B6350 /* GTMOAuth2SignIn.m in Sources */,
@@ -647,6 +666,7 @@
 				530E0CB416CB3D9A0048AAEE /* AFPropertyListRequestOperation.m in Sources */,
 				530E0CB516CB3D9A0048AAEE /* AFURLConnectionOperation.m in Sources */,
 				530E0CB616CB3D9A0048AAEE /* AFXMLRequestOperation.m in Sources */,
+				8D21918C185ABDDC004CAF9F /* SOLinkedInUser.m in Sources */,
 				530E0CB716CB3D9A0048AAEE /* UIImageView+AFNetworking.m in Sources */,
 				53D36F66175A545B00F5BA5A /* SODribbbleAPIClient.m in Sources */,
 				53D36F67175A545B00F5BA5A /* SODribbbleUser.m in Sources */,
